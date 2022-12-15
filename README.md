@@ -1,1 +1,1 @@
-# bigO-competitiveProgramming-Practice
+# BigO Competitive Programming Practice
