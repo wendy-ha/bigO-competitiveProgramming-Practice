@@ -7,6 +7,7 @@ public class CalculateStar {
         Scanner scanner = new Scanner(System.in);
         int input;
         int count = 0;
+        // use while for infinitive loop
         while(true){
             input = scanner.nextInt();
             if (input == 5) {
