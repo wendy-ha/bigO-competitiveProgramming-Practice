@@ -6,7 +6,9 @@ public class FindMinMaxScore {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int input;
+        // declare min as highest number
         int min = 11;
+        // declare max as lowest number
         int max = -1;
 
         while (true) {
