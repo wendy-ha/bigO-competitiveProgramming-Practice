@@ -1,16 +1,12 @@
 package Lecture09;
 
 import java.util.Scanner;
+import java.lang.Math;
 
 public class FindFirstDigit {
     static int firstDigit(int n) {
-        if (n <=-10) {
-            return firstDigit(n/10);
-        }
-        else if (n <0) {
-            return -n;
-        }
-        else if (n<10) {
+        n = Math.abs(n);;
+        if (n<10) {
             return n;
         }
         return firstDigit(n/10);
