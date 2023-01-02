@@ -1,8 +1,8 @@
 package Lecture09;
 import java.util.Scanner;
 public class ConvertHexadecimal {
-    static void hex(int num) //125
-    {
+    static String res;
+    static void hex(int num) {
         if(num>=0 && num<10)
             System.out.print(num);
         else if(num>=10 && num<=15)
@@ -25,14 +25,16 @@ public class ConvertHexadecimal {
                     System.out.print('E');
                     break;
                 case 15:
-                    System.out.println('F');
+                    System.out.print('F');
                     break;
+
             }
         }
         else
         {
-            hex(num/16);
+            hex(num / 16);
             hex(num%16);
+            return;
         }
     }
     public static void main(String[] args)
