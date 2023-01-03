@@ -1,7 +1,6 @@
 package Lecture09;
 import java.util.Scanner;
 public class ConvertHexadecimal {
-    static String res;
     static void hex(int num) {
         if(num>=0 && num<10)
             System.out.print(num);
